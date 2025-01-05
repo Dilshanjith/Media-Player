@@ -8,15 +8,19 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
-        Parent root = FXMLLoader.load(Main.class.getResource("sample.fxml"));
-        primaryStage.setTitle("MyvideoPlayer");
-        primaryStage.setScene(new Scene(root, 801, 448));
-        primaryStage.show();
+        try {
+            // Load the FXML file
+            Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+            primaryStage.setTitle("My Video Player");
+            primaryStage.setScene(new Scene(root, 801, 448));
+            primaryStage.show();
+        } catch (Exception e) {
+            // Handle any exceptions and print the stack trace for debugging
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
-
         launch(args);
     }
 }

@@ -5,25 +5,80 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="openjdk-22" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx-swt.jar!/" />
           <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx.base.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx.controls.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx.fxml.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx.graphics.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx.media.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx.swing.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx.web.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/src" />
-        </SOURCES>
+        <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../java fx file/javafx-sdk-23.0.1/lib/javafx-swt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

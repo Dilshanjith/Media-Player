@@ -12,12 +12,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.media.MediaView?>
 
-
 <AnchorPane prefHeight="448.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <BorderPane layoutX="-2.0" layoutY="-1.0" prefHeight="448.0" prefWidth="807.0">
          <center>
-            <MediaView fitHeight="200.0" fitWidth="200.0" BorderPane.alignment="CENTER" />
+            <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="200.0" BorderPane.alignment="CENTER" />
          </center>
          <bottom>
             <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
@@ -30,7 +29,7 @@
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="12.0">
                      <children>
                         <Button mnemonicParsing="false" text="prev" />
-                        <Button mnemonicParsing="false" text="Play" />
+                        <Button fx:id="playBtn" mnemonicParsing="false" onAction="#play" text="play" />
                         <Button mnemonicParsing="false" text="Next" />
                      </children>
                   </HBox>
